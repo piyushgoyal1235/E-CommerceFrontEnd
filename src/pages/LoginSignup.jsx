@@ -16,7 +16,7 @@
 //     console.log("Login Function Executed",formData);
 //     console.log("Login Function Executed",formData);
 //     let responseData;
-//     await fetch('http://localhost:5000/api/user/login',{
+//     await fetch('https://e-commercebackend-uves.onrender.com/api/user/login',{
 //       method:'POST',
 //       headers:{
 //         Accept:'application/form-data',
@@ -36,7 +36,7 @@
 //   const signup=async()=>{
 //     console.log("Login Function Executed",formData);
 //     let responseData;
-//     await fetch('http://localhost:5000/api/user/signup',{
+//     await fetch('https://e-commercebackend-uves.onrender.com/api/user/signup',{
 //       method:'POST',
 //       headers:{
 //         Accept:'application/form-data',
@@ -98,7 +98,7 @@ export const LoginSignup = () => {
   const login = async () => {
     console.log("Login Function Executed", formData);
     try {
-      const response = await fetch('http://localhost:5000/login', {
+      const response = await fetch('https://e-commercebackend-uves.onrender.com/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -120,7 +120,7 @@ export const LoginSignup = () => {
   const signup = async () => {
     console.log("Signup Function Executed", formData);
     try {
-      const response = await fetch('http://localhost:5000/api/user/signup', {
+      const response = await fetch('https://e-commercebackend-uves.onrender.com/api/user/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
