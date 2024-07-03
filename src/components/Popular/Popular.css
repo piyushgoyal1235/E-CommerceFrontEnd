@@ -1,0 +1,63 @@
+.popular {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* background: linear-gradient(180deg,white, #fcfafc5d); */
+    background: white;
+    padding: 2rem 1rem;
+}
+
+.popular h2 {
+    font-size: 36px;
+    /* color: #e60049a1; */
+    color: skyblue;
+    font-family: "Playwrite IT Moderna", cursive;
+    opacity: 0.9;
+    padding-top: 1.5rem;
+}
+
+.popular hr {
+    width: 90%;
+    /* background-color: #e600495d; */
+    background: skyblue;
+    height: 2px;
+    border: none;
+}
+
+.popular-item {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .popular {
+        justify-content: flex-start;
+        align-items: center;
+        height: max-content;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .popular h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .popular h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .popular h2 {
+        font-size: 28px;
+    }
+}
